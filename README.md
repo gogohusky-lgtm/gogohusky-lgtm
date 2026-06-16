@@ -18,7 +18,20 @@ AIoT 系統工程師 | 邊緣 AI | 嵌入式 Linux | 安全 IoT 整合
 ---
 
 # 精選專案
-## 🔹 邊緣 AI 視覺推論
+## 🔹 邊緣視覺 AIoT 系統
+
+A modular Edge AI + AIoT integration system designed for Raspberry Pi and Jetson platforms.
+
+This project focuses on:
+- Edge AI inference
+- Embedded Linux deployment
+- AIoT system architecture
+- Real-time monitoring
+
+https://github.com/gogohusky-lgtm/EdgeVision-AIoT-System
+
+
+## 邊緣 AI 視覺推論
 
 基於硬體的 CPU 與 GPU 部署效能比較  
 （Raspberry Pi 5 vs Jetson Nano）
