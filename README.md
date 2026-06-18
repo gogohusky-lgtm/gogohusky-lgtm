@@ -1,103 +1,149 @@
 # Ryan Lee
-AIoT 系統工程師 | 邊緣 AI | 嵌入式 Linux | 安全 IoT 整合
+
+Mechanical Engineer transitioning into Edge AI, AIoT, and Embedded Linux Engineering.
+
+I build deployable edge systems that integrate AI inference, device communication, monitoring, and embedded deployment under real hardware constraints.
+
+My background in precision machinery and engineering simulation gives me a system-level perspective on performance bottlenecks, resource limitations, reliability, and deployment trade-offs.
+
+**Current Focus**
+
+* Edge AI Inference
+* Embedded Linux
+* Raspberry Pi & Edge Devices
+* MQTT-based Distributed Systems
+* AIoT System Integration
+
+GitHub: https://github.com/gogohusky-lgtm
 
 ---
 
-## 關於我
+# Featured Project
 
-我專注於在真實硬體限制下設計並部署具備 AI 功能的邊緣系統。
+## EdgeVision-AIoT-System
 
-我的重點不僅是單一模型的效能，而是跨越整個系統的**工程決策**，包括：
+A distributed Edge AI runtime platform designed for Raspberry Pi deployment.
 
-- 邊緣 AI 推論  
-- 嵌入式 Linux 部署  
-- 安全的裝置間通訊  
-- 可擴展的 IoT 數據管線  
-- 考量硬體的權衡分析  
+The project evolved from a simple image inference script into a containerized multi-service AIoT system featuring:
 
----
+* Docker Compose deployment
+* MQTT-based service communication
+* Producer–Consumer queue architecture
+* Runtime observability and monitoring
+* Graceful shutdown and recovery mechanisms
+* Burst-load validation with 322-image stress testing
 
-# 精選專案
-## 🔹 邊緣視覺 AIoT 系統
+### Engineering Highlights
 
-A modular Edge AI + AIoT integration system designed for Raspberry Pi and Jetson platforms.
+**Phase 0 – Modular Edge AI**
 
-This project focuses on:
-- Edge AI inference
-- Embedded Linux deployment
-- AIoT system architecture
-- Real-time monitoring
+* Reusable inference pipeline
+* Hardware-independent architecture
+* Monitoring and action abstraction layers
 
+**Phase 1 – Distributed AIoT Platform**
+
+* Dockerized deployment
+* MQTT publish-subscribe architecture
+* Multi-service orchestration
+
+**Phase 2 – Runtime Hardening**
+
+* Backpressure-controlled queue design
+* Multi-threaded producer-consumer pipeline
+* Deterministic graceful shutdown
+* Runtime monitoring and heartbeat mechanism
+* 322-image burst-load validation with zero data loss
+
+**Phase 3A – Edge Deployment**
+
+* Raspberry Pi deployment
+* Containerized edge runtime
+* Dashboard and logging integration
+
+**Phase 3B (In Progress)**
+
+* Real-time camera pipeline
+* Continuous edge vision processing
+
+Repository:
 https://github.com/gogohusky-lgtm/EdgeVision-AIoT-System
 
+---
 
-## 邊緣 AI 視覺推論
+# Additional Projects
 
-基於硬體的 CPU 與 GPU 部署效能比較  
-（Raspberry Pi 5 vs Jetson Nano）
+## RFID Door Security System
 
-- 量化（FP32 / FP16 / INT8 PTQ / QAT）  
-- 在 2GB RAM 下的 TensorRT 優化  
-- 冷啟動 vs 穩態延遲分析  
-- GPIO 硬體回饋驗證  
-- 容器化部署  
+Distributed IoT access control architecture.
 
-https://github.com/gogohusky-lgtm/Edge_AI_Vision_Inference  
+Highlights:
+
+* Raspberry Pi 5 + ESP32-CAM heterogeneous architecture
+* HMAC-SHA256 authentication
+* TLS-secured MQTT communication
+* SQLite event logging and CSV export
+
+Repository:
+https://github.com/gogohusky-lgtm/RFID_door_security_system
 
 ---
 
-## 安全 RFID 門禁系統  
-分散式 IoT 安全架構
+## Smart Environment Monitoring System
 
-- Raspberry Pi 5 + ESP32-CAM 角色分工  
-- HMAC-SHA256 UID 驗證  
-- 支援 TLS 的 MQTT 通訊  
-- RP1 限制下的混合 GPIO 後端  
-- SQLite 紀錄與 CSV 匯出  
+Layered IoT data pipeline from sensor acquisition to visualization.
 
-https://github.com/gogohusky-lgtm/RFID_door_security_system  
+Highlights:
 
----
+* Arduino-based deterministic sampling
+* MQTT message transport
+* InfluxDB time-series storage
+* Grafana analytics dashboard
+* Flask real-time monitoring
 
-## 智慧環境監測系統  
-分層式 IoT 數據管線
-
-- Arduino 進行確定性 ADC 取樣  
-- Raspberry Pi 5 作為 Linux 邊緣節點  
-- 基於 MQTT 的訊息架構  
-- InfluxDB 時序資料儲存  
-- Grafana 歷史分析  
-- Flask 即時儀表板  
-
-https://github.com/gogohusky-lgtm/Smart_environment_monitor  
+Repository:
+https://github.com/gogohusky-lgtm/Smart_environment_monitor
 
 ---
 
-# 工程理念
+## Edge AI Vision Inference Benchmark
 
-- 部署可行性 > 合成基準測試數字  
-- 異質裝置間的明確角色分工  
-- 硬體限制決定軟體架構  
-- 安全性與可重現性是核心設計因素  
+Performance benchmarking across heterogeneous edge hardware.
 
----
+Highlights:
 
-# 核心技術
+* Raspberry Pi 5 vs Jetson Nano comparison
+* TensorFlow Lite and TensorRT deployment
+* FP32 / FP16 / INT8 quantization
+* Cold-start and steady-state latency analysis
 
-**邊緣 AI**  
-TensorFlow Lite、TensorRT、量化、效能測試  
-
-**嵌入式與 IoT**  
-Raspberry Pi 5、Jetson Nano、Arduino、ESP32  
-GPIO / UART / SPI / I2C  
-MQTT (TLS)、Mosquitto  
-
-**資料與後端**  
-InfluxDB、Grafana、SQLite、Flask  
+Repository:
+https://github.com/gogohusky-lgtm/Edge_AI_Vision_Inference
 
 ---
 
-## 聯絡方式
+# Engineering Perspective
 
-- GitHub: https://github.com/gogohusky-lgtm  
-- LinkedIn: https://www.linkedin.com/in/cheng-chun-ryan-lee-ab8a271/
+My transition from mechanical engineering to AIoT and embedded systems has shaped how I approach software systems.
+
+I focus on:
+
+* Deployment over demonstrations
+* Reliability over isolated benchmarks
+* Hardware-aware software design
+* Resource-constrained system engineering
+* Long-term maintainability and observability
+
+---
+
+# Technical Skills
+
+| Domain                 | Technologies                                                                      |
+| ---------------------- | --------------------------------------------------------------------------------- |
+| Edge AI                | TensorFlow Lite, TensorRT, Model Quantization (PTQ/QAT), Performance Benchmarking |
+| Embedded Systems       | Raspberry Pi 5, Jetson Nano, ESP32, Arduino, Linux                                |
+| Communication          | MQTT, Mosquitto, TLS                                                              |
+| DevOps & Deployment    | Docker, Docker Compose, Multi-Service Architecture                                |
+| Data Systems           | InfluxDB, SQLite, Grafana, Flask                                                  |
+| Runtime Engineering    | Multithreading, Producer-Consumer Pattern, Queue Design, Backpressure Control     |
+| Engineering Background | CAD, Mechanical Design, FEM Simulation                                            |
