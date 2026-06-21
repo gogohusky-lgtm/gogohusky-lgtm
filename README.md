@@ -1,8 +1,10 @@
 # Ryan Lee
 
-Mechanical Engineer transitioning into Edge AI, AIoT, and Embedded Linux Engineering.
+## Summary
 
-I build deployable edge systems that integrate AI inference, device communication, monitoring, and embedded deployment under real hardware constraints.
+Mechanical engineer transitioning into AIoT and Embedded Linux engineering through hands-on development of deployable edge systems.
+
+Focused on Edge AI deployment, MQTT-based communication, containerized runtime design, and reliability engineering on resource-constrained devices.
 
 My background in precision machinery and engineering simulation gives me a system-level perspective on performance bottlenecks, resource limitations, reliability, and deployment trade-offs.
 
@@ -11,7 +13,7 @@ My background in precision machinery and engineering simulation gives me a syste
 * Edge AI Inference
 * Embedded Linux
 * Raspberry Pi & Edge Devices
-* MQTT-based Distributed Systems
+* MQTT-based Even-Driven Systems
 * AIoT System Integration
 
 GitHub: https://github.com/gogohusky-lgtm
@@ -22,7 +24,7 @@ GitHub: https://github.com/gogohusky-lgtm
 
 ## EdgeVision-AIoT-System
 
-A distributed Edge AI runtime platform designed for Raspberry Pi deployment.
+A containerized multi-service Edge AI runtime designed for deployment on resource-constrained edge devices such as Raspberry Pi.
 
 The project evolved from a simple image inference script into a containerized multi-service AIoT system featuring:
 
@@ -41,7 +43,7 @@ The project evolved from a simple image inference script into a containerized mu
 * Hardware-independent architecture
 * Monitoring and action abstraction layers
 
-**Phase 1 – Distributed AIoT Platform**
+**Phase 1 – Containerized AIoT Platform**
 
 * Dockerized deployment
 * MQTT publish-subscribe architecture
@@ -61,7 +63,7 @@ The project evolved from a simple image inference script into a containerized mu
 * Containerized edge runtime
 * Dashboard and logging integration
 
-**Phase 3B (In Progress)**
+**Phase 3B (Planned)**
 
 * Real-time camera pipeline
 * Continuous edge vision processing
@@ -147,3 +149,5 @@ I focus on:
 | Data Systems           | InfluxDB, SQLite, Grafana, Flask                                                  |
 | Runtime Engineering    | Multithreading, Producer-Consumer Pattern, Queue Design, Backpressure Control     |
 | Engineering Background | CAD, Mechanical Design, FEM Simulation                                            |
+
+
