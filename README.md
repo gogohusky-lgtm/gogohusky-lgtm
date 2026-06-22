@@ -59,7 +59,7 @@ The project evolved from a simple image inference script into a containerized mu
 
 **Phase 3A – Edge Deployment**
 
-* Raspberry Pi deployment
+* Raspberry Pi 5 deployment
 * Containerized edge runtime
 * Dashboard and logging integration
 
